@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Our_Activity"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OurActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:textSize="30sp"
+            android:id="@+id/activity"
+            android:text="Our Activity"
+            android:textColor="#ffffff"
+            android:background="#6200EE"
+            android:textAlignment="center"
+            android:gravity="center_horizontal|center_vertical" />
+        <ListView
+            android:id="@+id/activitylist"
+            android:layout_weight="85"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:id="@+id/secondactivity"
+         android:background="#6200EE"
+         android:layout_margin="5dp"
+         android:layout_weight="7"
+         android:textColor="#ffffff"
+         android:textSize="20sp"
+         android:text="Second Activity"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
